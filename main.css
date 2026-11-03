@@ -2,18 +2,20 @@
 #del1 {
 text-align:center ;
 height: 200px;
-    padding-top: 200px;
+    padding-top: 2px;
 
 
 }
 #del2 {
-text-align: center;
-width: 500px;
-height: 500px;
-padding-bottom: 150px;
-padding-left: 390px;
-border-radius: 60px;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
 }
+
+
         body {
             /* Path to your image */
             background-image: url('image.png'); 
