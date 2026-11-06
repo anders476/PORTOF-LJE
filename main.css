@@ -17,7 +17,7 @@
     object-fit: cover;
     display: block;
     margin: 0 auto;
-    padding-top: 35px;
+
 }
 
 
@@ -64,9 +64,10 @@ nav a:hover {
     color: red;
 }
 
-#About-text {
+#about {
     color:red;
     text-align: center;
+        padding-top: 35px;
 }
 
 /* WORK SECTION */
@@ -102,4 +103,32 @@ nav a:hover {
     font-family: "Redaction50", sans-serif;
     font-size: 15px;
     line-height: 1.4;
+}
+
+.websites h2,
+.websites p {
+    color: red;
+}
+
+.games h2,
+.games p {
+    color: #00eeff;
+}
+
+.other h2,
+.other p {
+    color: #1aff00;
+}
+
+#contact {
+    color:rgb(111, 0, 255);
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 60px;
 }
